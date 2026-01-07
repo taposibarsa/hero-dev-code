@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.section-heading{
+    max-width: 827px;
+}
 .font-open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -85,4 +88,44 @@ nav .menu a{
     height: 676px;
     vertical-align: middle;
 
+}
+
+/* about-section */
+#about{
+    padding-top: 130px;
+}
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+    
+}
+#about .section-heading h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: 181818;
+}
+#about .section-heading p{
+    font-size: 18px;
+    color: #757575;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#about .about-info{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+#about .about-info p{
+    font-size: 20px;
+    color: #757575
+}
+#about .about-info h4{
+    font-size: 20;
+    font-weight: bold;
+    color: #474747;
 }
